@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="formstyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-title">
+        <i class="fa-regular fa-address-card" style="color: white"></i>
+        <p class="title">Cloud Contact</p>
+      </div>
+      <div class="header-actions">
+        <p class="header-p">Hello Mr. Abc</p>
+        <button id="header-button">
+          <i class="fa-solid fa-right-from-bracket"></i>
+          Logout
+        </button>
+      </div>
+    </div>
+    <div>
+      <form action="" class="form">
+        <h1>Add Contact</h1>
+        <input type="text" placeholder="Name" />
+        <input type="email" placeholder="Email " />
+        <input type="number" placeholder="Phone" />
+        <label for="radio-button">Contact type</label>
+        <input type="radio" name="Personal" id="pers" value="Personal" />
+        <input
+          type="radio"
+          name="Professional"
+          id="prof"
+          value="Professional"
+        />
+      </form>
+    </div>
+  </body>
+</html>
